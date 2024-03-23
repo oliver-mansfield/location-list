@@ -8,7 +8,7 @@ export default function Home() {
   const googleSignIn = () => {
     const provider = new GoogleAuthProvider();
     signInWithPopup(auth, provider)
-    
+
       .then((result) => {
         console.log(result);
         console.log(result.user);
@@ -20,7 +20,7 @@ export default function Home() {
   
   }
 
-
+//kick deploy
 
 
   return (
